@@ -280,8 +280,3 @@ Izinkan port 3000 di firewall (PowerShell sebagai Administrator):
 New-NetFirewallRule -DisplayName "Diary API 3000" -Direction Inbound -Protocol TCP -LocalPort 3000 -Action Allow
 ```
 
-## Catatan
-
-- File `.env` berisi konfigurasi lokal dan tidak ikut di-push (sudah ada di `.gitignore`). Gunakan `.env.example` sebagai acuan.
-- Query SQL memakai placeholder `?` sehingga input user tidak disisipkan langsung ke string SQL.
-- Dokumentasi tambahan ada di [docs/DOKUMENTASI.md](docs/DOKUMENTASI.md).
