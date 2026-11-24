@@ -1,0 +1,1 @@
+Simpan screenshot Postman di folder ini: get.png, post.png, put.png, delete.png (lihat docs\DOKUMENTASI.md).
